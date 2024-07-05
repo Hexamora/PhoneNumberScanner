@@ -1,22 +1,22 @@
 # PhoneNumberScanner
 
-Script **"Phonenumberscanner"** yang telah disediakan memiliki beberapa kegunaan utama:
+The **"Phonenumberscanner"** script provided serves several primary purposes:
 
-**Validasi dan Parsing Nomor Telepon:** Script ini menggunakan library phonenumbers untuk memvalidasi dan mem-parse nomor telepon yang dimasukkan pengguna. Hal ini memastikan bahwa nomor telepon yang diinput sesuai dengan format yang diharapkan.
+**Validation and Parsing of Phone Numbers:** This script utilizes the phonenumbers library to validate and parse user-inputted phone numbers, ensuring they adhere to expected formats.
 
-**Informasi Terkait Nomor Telepon:** Script ini dapat memberikan informasi terkait nomor telepon seperti negara, wilayah, operator telepon, format internasional dan nasional, serta zona waktu yang terkait dengan nomor telepon tersebut.
+**Phone Number Details:** The script retrieves information related to the phone number such as country, region, phone operator, international and national formats, and associated time zones.
 
-**Geolokasi:** Script ini menggunakan library geopy dan layanan geolocation dari Nominatim untuk menentukan lokasi geografis yang lebih spesifik terkait dengan nomor telepon. Informasi seperti koordinat latitude, longitude, dan kota dapat diperoleh jika informasi tersebut tersedia dari layanan geolocation.
+**Geolocation:** Using the geopy library and Nominatim geolocation service, the script determines more precise geographic locations related to the phone number. Information such as latitude, longitude, and city can be obtained if available from the geolocation service.
 
-**Iteratif dan Interaktif:** Script ini dirancang untuk berjalan secara iteratif dan interaktif. Pengguna diminta untuk memasukkan nomor telepon yang ingin di-scan, dan setelah informasi diperoleh, pengguna memiliki opsi untuk mengulang proses atau keluar dari program.
+**Iterative and Interactive:** Designed to operate iteratively and interactively, users are prompted to input the phone number they wish to scan. After retrieving information, users have the option to repeat the process or exit the program.
 
-**Penggunaan dalam Forensik atau Investigasi:** Script semacam ini dapat digunakan dalam konteks forensik digital atau investigasi untuk memeriksa validitas nomor telepon yang diberikan, mengidentifikasi lokasi geografis terkait, dan melacak informasi terkait penyedia layanan telekomunikasi.
+**Forensic or Investigative Use:** Such a script can be valuable in digital forensics or investigations to verify the validity of provided phone numbers, identify related geographic locations, and trace telecommunications service provider information.
 
-Dengan demikian, **"Phonenumberscanner"** dapat menjadi alat yang berguna untuk memeriksa dan mendapatkan informasi dasar terkait nomor telepon, serta menambahkan lapisan geolokasi untuk informasi yang lebih detail terkait lokasi geografis nomor telepon tersebut.
+Thus, **"Phonenumberscanner"** serves as a useful tool for checking and obtaining basic information regarding phone numbers, while adding a layer of geolocation for more detailed geographic information related to the phone number.
 
 ## Installation
 
-Dibawah ini adalah urutan dalam menginstall Script di Linux.
+Below is the sequence for installing scripts on Linux.
 
 ```bash
 $ pip install phonenumbers geopy requests
